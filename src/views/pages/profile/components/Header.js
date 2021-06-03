@@ -11,7 +11,6 @@ import javascript from "assets/img/dev-logo/javascript.svg"
 import laravel from "assets/img/dev-logo/laravel.svg"
 import lumen from "assets/img/dev-logo/lumen.svg"
 import codeigniter from "assets/img/dev-logo/codeigniter.svg"
-import php from "assets/img/dev-logo/php.svg"
 
 //etc
 import matUI from "assets/img/dev-logo/mat-ui.svg"
@@ -20,7 +19,7 @@ import sass from "assets/img/dev-logo/sass.svg"
 import googleCloud from "assets/img/dev-logo/google-cloud.svg"
 import digitalOcean from "assets/img/dev-logo/digitalocean.svg"
 import linux from "assets/img/dev-logo/linux.svg"
-import docker from "assets/img/dev-logo/docker.svg"
+import docker from "assets/img/dev-logo/docker.png"
 import github from "assets/img/dev-logo/github.png"
 import nginx from "assets/img/dev-logo/nginx.svg"
 
@@ -33,22 +32,11 @@ function ProfilePageHeader(data) {
   let fontSize = 10
   let columns
   const lettersEn = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ'
-  const letterJP = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンあいうえおかきくけこがぎぐげごさしすせそざじずぜぞたちつてとだぢづでどなにぬねのはひふへほばびぶべぼぱぴぷぺぽまみむめもやゆよらりるれろわゑを'
+  // const letterJP = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンあいうえおかきくけこがぎぐげごさしすせそざじずぜぞたちつてとだぢづでどなにぬねのはひふへほばびぶべぼぱぴぷぺぽまみむめもやゆよらりるれろわゑを'
   var letters = lettersEn
   let drops = []
 
-  React.useEffect(() => {
-    // if (window.innerWidth > 991) {
-    //   const updateScroll = () => {
-    //     let windowScrollTop = window.pageYOffset / 3;
-    //     pageHeader.current.style.transform =
-    //       "translate3d(0," + windowScrollTop + "px,0)";
-    //   };
-    //   window.addEventListener("scroll", updateScroll);
-    //   return function cleanup() {
-    //     window.removeEventListener("scroll", updateScroll);
-    //   };
-    // }
+  const loadTheMath = () => {
     canvas = canvasRef.current
     ctx = canvas.getContext('2d')
    
@@ -62,6 +50,10 @@ function ProfilePageHeader(data) {
       drops[i] = 1;
     }
    setInterval(draw, 33)
+  }
+
+  React.useEffect(() => {
+    loadTheMath()
   })
 
   const draw = () => {
@@ -87,10 +79,6 @@ function ProfilePageHeader(data) {
       >
         <div
           className="page-header-image"
-          // style={{
-          //   backgroundImage:
-          //     "url(" + require("assets/img/darker.jpg").default + ")",
-          // }}
           ref={pageHeader}
         >
           <canvas ref={canvasRef}>

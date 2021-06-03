@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.text-th {
+    font-family: 'Prompt', sans-serif !important;
+}
+.text-content {
+    font-size: 16px!important;
+}
 .content-dev-skill {
     list-style-type: none;
     padding-left: 0px;
