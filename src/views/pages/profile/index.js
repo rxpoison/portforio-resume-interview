@@ -12,6 +12,12 @@ import {
   Row,
   Col,
   UncontrolledTooltip,
+  Modal, 
+  ModalHeader, 
+  ModalBody, 
+  ModalFooter,
+  FormGroup,
+  Label
 } from "reactstrap";
 
 // core components
@@ -24,7 +30,7 @@ import WorkHistory from "./components/WorkHistory";
 import Portfolio from "./components/Portfolio";
 
 function ProfilePage() {
-  const [pills, setPills] = useState("1");
+  const [modal, setModal] = useState(false)
   useEffect(() => {
     document.body.classList.add("profile-page");
     document.body.classList.add("sidebar-collapse");
@@ -37,42 +43,19 @@ function ProfilePage() {
     };
   }, []);
 
+  const toggle = () => setModal(!modal)
   
   return (
     <>
-      <ExamplesNavbar />
       <div className="wrapper">
         <ProfilePageHeader data={profiles()} />
         <div className="section">
           <Container>
             <div className="button-container">
-              <Button className="btn-round" color="info" size="lg">
-                Follow
+              <Button className="btn-round mt-3" onClick={toggle} color="info" size="lg">
+                Contact me
               </Button>
-              <Button
-                className="btn-round btn-icon"
-                color="default"
-                id="tooltip515203352"
-                size="lg"
-              >
-                <i className="fab fa-twitter"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="tooltip515203352">
-                Follow me on Twitter
-              </UncontrolledTooltip>
-              <Button
-                className="btn-round btn-icon"
-                color="default"
-                id="tooltip340339231"
-                size="lg"
-              >
-                <i className="fab fa-instagram"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="tooltip340339231">
-                Follow me on Instagram
-              </UncontrolledTooltip>
             </div>
-            
             <AboutMe />
             <WorkHistory data={works()} />
             <Portfolio />
@@ -80,6 +63,47 @@ function ProfilePage() {
         </div>
         <DefaultFooter />
       </div>
+      <div>
+
+      <Modal isOpen={modal} toggle={toggle} className="">
+        <ModalHeader toggle={toggle}>Contact me :D</ModalHeader>
+        <ModalBody>
+       
+          <FormGroup className="text-th">
+            <Row>
+              <Col md="3" className="text-right">
+                Name : 
+              </Col>
+              <Col md="9" className="pl-0">
+                Chanathip Thongmont (ชนาธิป ทองมนต์)
+              </Col>
+            </Row>
+          </FormGroup>
+          <FormGroup className="text-th">
+            <Row>
+              <Col md="3" className="text-right">
+                Phone : 
+              </Col>
+              <Col md="9" className="pl-0">
+                (+66) 918636554
+              </Col>
+            </Row>
+          </FormGroup>
+          <FormGroup className="text-th">
+            <Row>
+              <Col md="3" className="text-right">
+                Email : 
+              </Col>
+              <Col md="9" className="pl-0">
+                rxpoison.ct@gmail.com
+              </Col>
+            </Row>
+          </FormGroup>
+          
+          
+        </ModalBody>
+      </Modal>
+    </div>
     </>
   );
 }
