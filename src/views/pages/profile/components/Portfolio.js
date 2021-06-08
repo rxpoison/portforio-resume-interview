@@ -19,7 +19,8 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">Amasscar</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">เป็นระบบสำหรับให้ผู้ใช้งานด้านรถยนต์เรียกบริการช่างจากอู่บริเวณใกล้เคียงมาตรวจสอบรถยนต์ในกรณีที่เกิดปัญหา โดยจะ Map นำทางให้ช่างมาหาผู้ใช้งานภายในเขตของ กทม</h5>
+              <h5 className="text-muted description mb-2">
+                Amasscar application can call garage worker to check your car and repair it, Amasscar can tracking you and garage with google map location.</h5>
             </Col>
             <Col md="12">
               <Row>
@@ -44,7 +45,7 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">Tepprathanpornpharmacy</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">เป็นระบบสำหรับขายอาหารเสริม, ยา, เกี่ยวกับความสวยความงานของผู้หญิง โดยมีระบบเกี่ยวกับการขาย โปรโมชั่น รวมถึงตะกร้าสินค้า และหลังบ้านมีระบบ POS ที่คอยจัดการสินค้าต่างๆของร้านค้า</h5>
+              <h5 className="text-muted description mb-2">Ecommerce for Tepprathanpornpharmacy to selling product and making promotion.</h5>
             </Col>
             <Col md="12">
               <Row>
@@ -66,7 +67,7 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">ERP - HRM</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">พัฒนาระบบ ERP ในส่วนของ HRM เพื่อจัดการระบบงานฝ่าย HRM ทั่วทั้งหมด 20 สาขา ทั่วประเภทไทยของบริษัท </h5>
+              <h5 className="text-muted description mb-2">ERP in HRM module for RODTANK K.C. METAL SHEET PUBLIC CO.,LTD</h5>
             </Col>
             <Col md="12">
               <Row>
@@ -94,7 +95,7 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">Softprompt - POS UI</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">ระบบ POS สำหรับร้านอาหารที่ต้องการจัดการร้านค้าตัวเอง มีการจัดการโปรโมชั่นเสริม การจัดโต๊ะ การคิดเงิน พัฒนามาใช้กับเครื่อง POS โดยเฉพาะ</h5>
+              <h5 className="text-muted description mb-2">รThis POS program in POS machine and can make promotion, table setting, payment.</h5>
             </Col>
             <Col md="12">
               <Row>
@@ -116,7 +117,7 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">LINE BOT API - Currency</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">มินิโปรเจคเล็กๆ ในการลองทำ Line bot api ตอบรับข้อความจากผู้ใช้ โดยโจทน์คือใช้ API ภายนอกในการดึงค่าเงิน เพื่อนำมาแปลงค่าเงินอย่างง่าย โดยในมินิโปรเจคนี้ได้ทดลองใช้ Express JS ในการทำ Webhook กับ Line Developer พร้อมกับ Deploy โปรเจคที่ Heroku</h5>
+              <h5 className="text-muted description mb-2">Mini project deploy with Heroku using with Node js and connect to other api</h5>
             </Col>
             <Col md="12">
               <Row>
@@ -138,7 +139,7 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">KKU ICEM PROJECT</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">เป็นระบบประชาสัมพันธ์ งานแข่งขันตอบปัญหาทางการแพทย์ระดับนานาชาติ คณะแพทย์ศาสตร์ มหาวิทยาลัยขอนแก่น ที่ถูกจัดขึ้นทุกปี โดยระบบพัฒนาขึ้นด้วย Laravel ใน Docker (Laradock) รวมถึงใช้งาน Pm2 ในการจัดการ Socket.io ในการทำ Event การสอบแบบ Real time โดยทั้งหมดนั้น Deploy โปรเจคไว้ใน Ubuntu ที่ Server ของ Digital ocean และยังได้ป้องกันความปลอดภัยด้วย Cloudflare</h5>
+              <h5 className="text-muted description mb-2">This project for Faculty of Medicine, Khon Kaen University, Thailand. Examination in real time to fine the one for Winner team.</h5>
             </Col>
             <Col md="12">
               <Row>
@@ -163,7 +164,7 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">Print express label custom</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">เป็นการจัดการรูปแบการปริ้นใบปะหน้าสำหรับส่งของ โดยสามารถเลือกรูปแบบได้หลายรูปแบบ</h5>
+              <h5 className="text-muted description mb-2">Can create print label with logistics from customer order and print.</h5>
             </Col>
             <Col md="12">
               <Row>
@@ -179,7 +180,7 @@ function Portfolio(data) {
           <h5 className="title text-center my-0 pt-0">Cf manager with Stock realtime</h5>
           <Row>
             <Col md="12" className="text-th">
-              <h5 className="text-muted description mb-2">สำหรับให้ทางพ่อค้าแม่ค้าดู Stock สินค้าแบบ Realtime ในระหว่าง Live ขายของได้</h5>
+              <h5 className="text-muted description mb-2">Can view real time stock product to sold.</h5>
             </Col>
             <Col md="12">
               <Row className="d-flex justify-content-center">

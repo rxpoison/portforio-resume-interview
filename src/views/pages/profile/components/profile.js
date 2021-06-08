@@ -30,16 +30,16 @@ export const works = () => {
                 'MSSql'
             ],
             role : [
-                'เชื่อมต่อขนส่งเข้ากับระบบของ CF manager เช่น DHL Express, SCG Express, Ninja van, Thailand post, Shippop',
-                'สร้างใบปริ้นปะหน้ารูปแบบใหม่ สำหรับกระดาษ A6, 56mm (Paperang, Peripage)',
-                'เพิ่มระบบเก็บ Log การปริ้น เพื่อแก้ปัญหาการสั่งปริ้นย้อนหลังผ่านระบบ',
-                'ปรับปรุงหน้าของระบบการซื้อขายให้อยู่ในรูปแบบของ Mobile',
-                'สร้างระบบดูและเช็ค Stock realtime ด้วย React js',
-                'พัฒนาระบบการ Checkout สินค้าเมื่อมีขนส่งมารับของ (เช็คของซ้ำเพื่อตรวจสอบของที่ตกหล่นหรือไม่ครบ)',
-                'พัฒนาโปรแกรมจัดการบัญชีด้วย React js',
-                'ควบคุมทีมและดูแลทีมในส่วนของระบบบัญชีที่ถูกพัฒนาขึ้นด้วย React js',
-                'จัดการ Server สำหรับ Deploy project และวางระบบ Git control ภายใต้โปรเจคบัญชี',
-                'จัดการ API สำหรับงานทางฝั่งของ Cf manager และ บัญชี'
+                'Connected logistics api with CF manager such as DHL Express, SCG Express, Ninja van, Thailand post, Shippop.',
+                'Create print label like A6, 56mm (Paperang, Peripage).',
+                'Create print label log with all paper.',
+                'Modify sale page from web application to Mobile (bootstrap responsive, css).',
+                'Create a Stock realtime with React js.',
+                'Development of Checkout stock when logistics pickup product.',
+                'Create Account web application with React js.',
+                'Manage small team.',
+                'Manage git control, Deploy project to cloud server.',
+                'Development of restAPI as CF manager project and Account web application'
             ],
             timelineConnector : true,
             logo : <LaptopMacIcon />
@@ -58,10 +58,10 @@ export const works = () => {
                 'MySql'
             ],
             role : [
-                'นำข้อมูลของลูกค้ามาเขียนวิเคราะห์กราฟด้วย Microsoft power BI',
-                'เขียนระบบ POS ในส่วนของ Frontend และ Backend',
-                'พัฒนาระบบ POS ให้อยู่ในรูปแบบของ Windows app ด้วย Electron js พร้อมกับทำระบบ Sync ข้อมูล',
-                'พัฒนาส่วนของเครื่องสแกนนิ้วมือพนักงานเข้ากับระบบ POS (สแกนนิ้วก่อนเริ่มงาน)'
+                'Analyze customer data with Microsoft power BI',
+                'Create POS system with front-end and back-end',
+                'Development POS system to Windows app with Electron js and Sync data system',
+                'Connect Time attendance to POS'
             ],
             timelineConnector : true,
             logo : <LaptopMacIcon />
@@ -81,8 +81,8 @@ export const works = () => {
                 'MySql'
             ],
             role : [
-                'ทำระบบ ERP งานด้านการบริหารทรัพยากรบุคคล ด้วย Laravel', 
-                'ใช้ Node js เชื่อมต่อกับเครื่องสแกนนิ้วมือกับสำนักงานทั้งหมด 20 สาขาผ่านเคลือข่ายของทางบริษัท และ Deploy งานลง Ubuntu server ที่สาขาใหญ่'],
+                'Development of ERP system in module HRM (Human resource management)', 
+                'Connected Time attendance to all branch of company with node js'],
             timelineConnector : true,
             logo : <LaptopMacIcon />
         },{
@@ -99,7 +99,7 @@ export const works = () => {
                 'REACT JS',
                 'MySql'
             ],
-            role : ['เขียนโปรแกรมตามขอบเขตงานของลูกค้า'],
+            role : ['Development of any software for customer'],
             timelineConnector : false,
             logo : <LaptopMacIcon />
         }

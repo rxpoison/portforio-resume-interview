@@ -9,10 +9,12 @@ function AboutMe(data) {
     <>
         <h3 className="title">About me</h3>
         <h5 className="description text-th text-content text-left">
-            ปกติเป็น Fullstack developer แต่ถ้าพูดถึงเรื่องที่ชอบที่สุดก็คงเป็น Frontend developer ชอบทำงานเป็นทีม และชอบวางแผน
-            การทำงานกับทีมอยู่เสมอ จากประสบการณ์ที่ผ่านมานั้น มีบางครั้งการทำงานก็ได้รับมอบหมายให้ดูแลทีมบ้าง ได้วางแผนระบบงาน ไปจนถึงขั้นตอนการ Deploy งานขึ้นระบบ
+            I'm usually a Full stack developer, but my favorite subject is Front-end developer.
+            I like to work as a team and likes to plan before work.
+            From that past experience Sometimes the company is assigned work with me to manage a small team until the process of deploying work into the cloud system.
+            
             <br />
-            ส่วนใหญ่เป็นคนเงียบ แต่จริงจังกับงานเป็นที่สุด สามารถปรับตัวได้ง่าย เป็นคนที่ชอบเรียนรู้อะไรใหม่ๆอยู่เสมอ สามารถทนรับแรงกดดันจากการทำงานได้ เป็นคนที่เข้ากันกับใครก็ได้ทุกคน
+            I'm mostly a quiet person. but more serious about work can adapt easily I always like to learn something new. I can endure hard work. I am always open to all opinions.
 
         </h5>
     </>
