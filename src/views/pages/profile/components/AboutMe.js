@@ -9,12 +9,7 @@ function AboutMe(data) {
     <>
         <h3 className="title">About me</h3>
         <h5 className="description text-th text-content text-left">
-            I'm usually a Full stack developer, but my favorite subject is Front-end developer.
-            I like to work as a team and likes to plan before work.
-            From that past experience Sometimes the company is assigned work with me to manage a small team until the process of deploying work into the cloud system.
-            
-            <br />
-            I'm mostly a quiet person. but more serious about work can adapt easily I always like to learn something new. I can endure hard work. I am always open to all opinions.
+        Hi, my name is Chanathip Thongmont, I'm a Full stack programmer but i'm very love with Front-end cuz i'm very like ReactJS, Jquery, HTML, etc. I have 2 years 9 month of working experience, I can learning everything of Programming with my self or my team, My motivation comes from working on things I care about, That will be a success for you.
 
         </h5>
     </>
